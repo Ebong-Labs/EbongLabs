@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node (Angular frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Gradle (Ktor backend)
+backend/.gradle/
+backend/build/
+backend/out/
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.iml
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
